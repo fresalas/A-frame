@@ -100,11 +100,13 @@ body {
     text-decoration: underline;
     z-index: 100;
 }
-cf
+
 .portada-karaoke {
     display: block;
-    margin: 0 auto 18px auto;
-    max-width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    margin: 24px auto 18px auto; /* Centrada y con espacio arriba/abajo */
+    max-width: 350px;            /* Limita el ancho para que no sea muy grande */
+    width: 100%;
+    border-radius: 16px;         /* Bordes redondeados */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15); /* Sombra elegante */
+    object-fit: cover;
 }
